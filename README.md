@@ -3,6 +3,19 @@
 
 
 In order to install the theme and add it to your decorations do the following:
+
+First make sure you have [`extra-cmake-modules`](https://github.com/KDE/extra-cmake-modules) installed:
+
+```shell
+git clone https://github.com/KDE/extra-cmake-modules.git
+cd extra-cmake-modules
+mkdir build && cd build    
+cmake ..
+make && sudo make install
+```
+
+Then install with:
+
 ``` shell
 git clone https://github.com/jomada/SierraBreeze
 cd SierraBreeze
